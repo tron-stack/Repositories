@@ -1,0 +1,114 @@
+body{
+    
+    background-color: rgb(151, 184, 255);
+}
+#header {
+    text-align: center;
+    overflow: hidden;
+    padding: 50px;
+    display: flex;
+    max-width: 100%;
+    max-height: 10px;
+    text-shadow: 3px;
+    left: 200px;
+    color: rgb(11, 60, 167);
+    position: relative;
+    background-color: #FFF;
+   
+    
+}
+.window {
+  margin-left: 200px;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 6px 6px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(13, 29, 63);
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+sidenav a:hover {
+  color: #0022b9;
+}
+.dropdown-btn:hover {
+  color: rgb(66, 236, 248);
+}
+
+.main {
+  margin-left: 200px; 
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.active {
+  background-color: navy;
+  color: white;
+}
+
+.dropdown-container {
+  display: block;
+  background-color: rgb(66, 236, 248);
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#bodydiv {
+    display: flex;
+    text-align: center;
+    margin: 50px 25px 50px 25px;
+    padding: 50px 25px 50px 25px;
+    background-color: #FFF;
+    position: relative;
+    left: 175px;
+    color: rgb(13, 29, 63);
+}
+
+#link{
+
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  flex-wrap: wrap;
+  margin: 25px;
+  padding: 12px;
+  color:rgb(66, 236, 248);
+  text-decoration: wavy;
+
+}
+
+#link:hover{
+  color: lightgreen;
+
+}
+#footer {
+  text-align: center;
+  color: rgb(13, 29, 63);
+}
