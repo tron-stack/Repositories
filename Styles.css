@@ -11,9 +11,9 @@ body{
     max-height: 10px;
     text-shadow: 3px;
     left: 200px;
-    color: rgb(11, 60, 167);
+    color: rgb(0, 32, 100);
     position: relative;
-    background-color: #FFF;
+    background-color: rgb(162, 244, 247);
    
     
 }
@@ -27,7 +27,7 @@ body{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: rgb(190, 247, 255);
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -36,7 +36,7 @@ body{
   padding: 6px 6px 6px 10px;
   text-decoration: none;
   font-size: 20px;
-  color: rgb(13, 29, 63);
+  color: rgb(0, 24, 75);
   display: block;
   border: none;
   background: none;
@@ -47,10 +47,10 @@ body{
 }
 
 sidenav a:hover {
-  color: #0022b9;
+  color: #00af2c;
 }
 .dropdown-btn:hover {
-  color: rgb(66, 236, 248);
+  color: rgb(0, 255, 170);
 }
 
 .main {
@@ -85,7 +85,7 @@ sidenav a:hover {
     text-align: center;
     margin: 50px 25px 50px 25px;
     padding: 50px 25px 50px 25px;
-    background-color: #FFF;
+    background-color: rgb(134, 218, 224);
     position: relative;
     left: 175px;
     color: rgb(13, 29, 63);
@@ -99,13 +99,16 @@ sidenav a:hover {
   flex-wrap: wrap;
   margin: 25px;
   padding: 12px;
-  color:rgb(66, 236, 248);
-  text-decoration: wavy;
+  color:rgb(24, 121, 128);
+  text-decoration:solid;
+  text-shadow: 2em;
+  text-decoration: overline;
+  text-decoration-color: black;
 
 }
 
 #link:hover{
-  color: lightgreen;
+  color: navajowhite;
 
 }
 #footer {
